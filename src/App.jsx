@@ -1,5 +1,5 @@
-import { Button } from 'react-bootstrap'
 import NavbarMenu from './Components/NavbarMenu'
+import Introduction from './Components/Introduction'
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
     <NavbarMenu/>
+    <Introduction/>
      
     </div>
   )
