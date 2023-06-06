@@ -1,5 +1,6 @@
 import NavbarMenu from './Components/NavbarMenu'
 import Introduction from './Components/Introduction'
+import Services from './Components/Services/Services'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
     <NavbarMenu/>
     <Introduction/>
+    <Services/>
      
     </div>
   )
