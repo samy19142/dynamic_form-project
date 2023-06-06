@@ -1,8 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./Services.css";
-import imgCourse1 from "../../assets/hbo.jpeg"
-import imgCourse2 from "../../assets/netflix.jpeg"
-import imgCourse3 from "../../assets/prime.jpeg"
+import imgCourse1 from "../../assets/react js.png"
+import imgCourse2 from "../../assets/netcore vs netframework.png"
+import imgCourse3 from "../../assets/arduino.png"
 import CardService from "./CardService/CardService";
 
 const Services = () => {

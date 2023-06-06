@@ -5,6 +5,14 @@ box-shadow: inset 0px -6px 0px 0px #b0e9ec;
 font-weight: 600;
 }
 
+.container-card-service img{
+    max-height: 20rem;
+}
+
+.container-card-service img:hover{
+    transform:scale(.95);
+    transition: all ease-in .2s;
+}
 .container-card-service a:hover{
     color: #000;
     font-weight: 800;
