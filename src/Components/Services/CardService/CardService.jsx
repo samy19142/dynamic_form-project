@@ -8,7 +8,7 @@ const {title,subtitle,image,footer,link} =service;
     return(
         <Col className="container-card-service">
             <Card>
-            <Card.Img src={image}/>
+            <Card.Img variant="top" src={image} alt={title}/>
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>{subtitle}</Card.Text>
