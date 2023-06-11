@@ -20,7 +20,7 @@ const ThirdStep = ({setStep}) => {
 
   const handleCloseModal=()=>setModal(false);
 
-  console.log(modal);
+  
   return (
     <div>
       <h2>Do you want add any comment?</h2>

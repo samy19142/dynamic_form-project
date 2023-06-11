@@ -20,10 +20,11 @@ const Introduction = () => {
             <div className="d-flex container-actions mt-5">
               <div className="container-buttons">
                 <Button
-                  className="p-3"
+                  className="p-3" 
                   onClick={() => console.log("click")}
                 >
                   Get in touch
+                  <a href="#dynamic-form">➡️</a>
                 </Button>
                 <Button className="p-3">
                   Get in touch
