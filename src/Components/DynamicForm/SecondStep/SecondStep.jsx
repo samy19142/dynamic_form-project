@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Form, Row } from "react-bootstrap";
 import "./SecondStep.css"
 
 import { useState } from "react";
@@ -17,7 +17,15 @@ const options = [
 
 const SecondStep=()=>{
 const [selectOption,setSelectOption]=useState(null);
-console.log(selectOption)
+
+const hobbiesSer = JSON.stringify(selectOption);
+localStorage.setItem("hobbiesSer",hobbiesSer);
+
+const onChangeAdditionalHobbie =(e)=>{
+    const sport =e.target.value;
+    localStorage.setItem("adittionalHobbie",sport);
+}
+
     return (
         <div>Select your favourite sport
         <h4>Tell me about your hobbies</h4>
@@ -32,6 +40,10 @@ console.log(selectOption)
                     isSearchable
                     isMulti
                    />
+                </Col>
+                <Col lg="7" className="mt-4">
+                    <h5>Do you want to add more?</h5>
+                    <Form.Control type="text" placeholder="Karate" onChange={(e)=>onChangeAdditionalHobbie(e)}></Form.Control>
                 </Col>
             </Row>
         </Container>
