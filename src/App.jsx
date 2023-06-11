@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import NavbarMenu from './Components/NavbarMenu'
 import Introduction from './Components/Introduction'
 import Services from './Components/Services/Services'

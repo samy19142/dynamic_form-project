@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Card, Col } from "react-bootstrap";
 
-const CardFruit = ({ fruit, clickCard, selectedCard }) => {
+const CardFruit = ({ fruit, clickCard, selectedCard}) => {
   const { id, icon, name, description } = fruit;
 
   return (
