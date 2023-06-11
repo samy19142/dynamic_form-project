@@ -10,7 +10,7 @@ import "./ThirdStep.css";
 import { useState } from "react";
 import Resume from "../Resume/Resume";
 
-const ThirdStep = () => {
+const ThirdStep = ({setStep}) => {
   const [modal, setModal] = useState(false);
 
   const onChangeComment = (e) => {
@@ -47,7 +47,7 @@ const ThirdStep = () => {
         </div>
 
         {modal && (
-          <Resume showModal={modal} handleCloseModal={handleCloseModal}/>
+          <Resume showModal={modal} handleCloseModal={handleCloseModal} setStep={setStep}/>
         )}
       </Container>
     </div>

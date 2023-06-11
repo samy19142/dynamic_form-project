@@ -18,8 +18,8 @@ const options = [
 const SecondStep=()=>{
 const [selectOption,setSelectOption]=useState(null);
 
-const hobbiesSer = JSON.stringify(selectOption);
-localStorage.setItem("hobbiesSer",hobbiesSer);
+const hobbies = JSON.stringify(selectOption);
+localStorage.setItem("hobbies",hobbies);
 
 const onChangeAdditionalHobbie =(e)=>{
     const sport =e.target.value;
